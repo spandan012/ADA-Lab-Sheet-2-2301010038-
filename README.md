@@ -1,4 +1,5 @@
 # ADA-Lab-Sheet-2-2301010038-
+
 # Sorting Algorithm Analysis
 
 ## Overview
@@ -20,30 +21,22 @@ The results are visualized through graphs showing step count vs. input size.
 ## Running the Code
 ### Prerequisites
 - C++ Compiler (e.g., g++ for GCC)
-- Python (for graph generation)
-- Matplotlib library (install using `pip install matplotlib`)
 
 ### Compilation & Execution
 1. Compile the C++ code:
    ```sh
-   g++ sorting_analysis.cpp -o sorting
+   g++ code.cpp -o sorting
    ```
 2. Run the program:
    ```sh
    ./sorting
    ```
-3. (Optional) Run the Python script for graphs:
-   ```sh
-   python generate_graphs.py
-   ```
 
 ## Graph
-![Step Count Analysis](graphs/step_count_analysis.png)
-
-
+![Step Count Analysis](Graphs.png)
 
 ## Expected Output
-The sorting algorithms print the sorted arrays along with step counts for each scenario.
+The program prints sorted arrays along with step counts for each sorting algorithm in different scenarios (best, worst, and average cases). The output format will display the input array before and after sorting, along with the number of steps taken.
 
 ## Conclusion
 This project helps in understanding the efficiency of different sorting algorithms and their behavior under various input conditions.
