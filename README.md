@@ -37,6 +37,8 @@ The results are visualized through graphs showing step count vs. input size.
 
 ## Expected Output
 The program prints sorted arrays along with step counts for each sorting algorithm in different scenarios (best, worst, and average cases). The output format will display the input array before and after sorting, along with the number of steps taken.
+![Step Count Analysis](output.png)
+
 
 ## Conclusion
 This project helps in understanding the efficiency of different sorting algorithms and their behavior under various input conditions.
